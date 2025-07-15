@@ -33,6 +33,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.sslwireless.fastpay'
     compileSdkVersion 32
 
     compileOptions {
